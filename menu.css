@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'Allerta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allerta Regular'), local('Allerta-Regular'), url(./URdUfE0ePw9inz9dceNoVA.woff) format('woff');
+}
+body
+{
+
+}
+#contenedor
+{
+background-image:url(imagenes/gestionar.jpg);
+background-repeat:no-repeat;
+margin-top:10%;
+width:727px;
+height:252px;	
+}
+.men
+	{	
+	margin-top:255px;
+	width:363px;
+	height:60px;
+	background-color:#F7931E;
+
+	}
+#uno
+	{
+	float:left;
+	width:50%;
+	}
+#uno:hover
+	{opacity:0.5;
+	cursor:pointer;
+	}
+
+#dos
+{
+	float:right;
+	width:50%;
+}
+#dos:hover
+	{
+	opacity:0.5;
+	cursor:pointer;
+	}
+
+
+.texto
+	{
+	margin-top:12px;
+	font-size:25px;
+	font-family:'Allerta';
+	font-weight:bolder;
+
+	}
+#linea
+	{
+	position:absolute;
+	margin-top:317px;
+	width:727px;
+	height:4px;
+	background-color:#F7931E;
+	}
+
+a{text-decoration:none;
+	color:#000000; 
+	width:80px;
+	height:25px;
+}
+a:hover
+{
+	color:#FBFBFB;
+}
+
+#cerrar{
+	position:absolute;
+	width:727px;
+	height:25px;;
+	margin-top:325px;
+	background-color:#F7931E;}
+
+#cerrar:hover
+{
+	opacity:0.8;
+}

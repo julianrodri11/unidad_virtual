@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+table{
+	text-align:center;}
+
+input
+{
+border-radius:4px;	
+height:25px;
+border:none;
+}
+a
+{
+text-decoration:none;
+color:#FFB821;
+}
+.txtforms
+{
+width:150px;	
+}
+
+body{width:100%;
+	height:100%;
+	background-color:#1a86aa;
+	background-image:url(imagenes/fondo_brillante.jpg);
+	background-repeat:repeat-y;
+	background-size:cover;}
+#content
+{	position:absolute;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+}
+
+#franamarilla{
+	position:absolute;
+	margin:15% 10% 0% 0%;
+	width:100%;
+	height:55%;
+	background-image:url(imagenes/vinaranja.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	}
+#adorchur{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-image:url(imagenes/chur.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+
+	}
+	#frm{
+	position:absolute;
+	min-width:350px;
+	margin-left:65%;
+	margin-top:8%;
+	height:auto;
+	background-image:url(imagenes/formtras.png);
+	color:#FFFEFD;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+input{text-align:center;}
+#btnEnv:hover{background-color:#F98B00;}
+
+#frm2{
+
+	width:50%;
+	min-width:350px;
+	margin:0 auto;
+	margin-top:8%;
+	height:auto;
+	background-image:url(imagenes/formtras.png);
+	color:#FFFEFD;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+table{
+border-collapse: separate;
+border-spacing: 0px 20px;
+}

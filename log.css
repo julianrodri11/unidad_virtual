@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{
+	background-image:url(imagenes/fondo_brillante.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#268cae;
+	}
+#contenedor
+{
+	margin:0 auto;
+	margin-top:10%;	 
+	width:850px;
+	height:350px;
+/*	background-color:#000000;*/
+
+}
+table
+{text-align:center;}
+#izq
+{	width:350px;
+	height:350px;
+/*	background-color:#F70004;*/
+	float:left;
+	background-image:url(imagenes/logos.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+#der
+{	width:500px;
+	height:350px;
+/*	background-color:#11D54C;*/
+	float:left;
+	background-image:url(imagenes/servilleta.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:430px;
+}
+#frm
+{	
+	margin-left:55px;
+	margin-top:104px;
+/*	background-color:#000000;*/
+	width:260px;
+	height:auto;
+}
+
+#user,#pw
+{width:110px;
+border-radius:6px;
+border:none;
+}
+tr{border-spacing:0px;}
+
+#btnEnviar,#btnEnv
+{
+	border:0;
+	border-radius:5px;
+	background-color:#FFFFFF;
+	font:bold 11px bold;
+	height:18px;
+
+}
+
+#olcon:hover
+{
+opacity:0.4;	
+background-color:#000;
+border-radius:5px;
+}

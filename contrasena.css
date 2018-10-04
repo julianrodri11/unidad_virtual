@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+#cr,#cr
+{
+	background-image:url(imagenes/fondo_brillante.jpg) ;
+	background-position:center;
+	background-size:cover;}
+@font-face {
+  font-family: 'Allerta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allerta Regular'), local('Allerta-Regular'), url(./URdUfE0ePw9inz9dceNoVA.woff) format('woff');
+}
+
+div {width:350px;
+	 height:auto;
+  	 margin:0 auto;
+	}
+h3,p {text-align:center;}
+
+table {margin:0 auto;}
+
+input[type="text"],input[type="password"],input[type="email"]{border-radius:6px;border:none;height:26px;border-color:#CCCBCB; text-align:center; color:#666666;}
+input::-webkit-input-placeholder {
+    color:    #999999;
+    font-weight: bold;
+}
+input:-moz-placeholder {
+    color:    #666666;
+    font-weight: bold;
+}
+	
+body {font-family:'Allerta';background-color:#f2fbff;}
+table{width:200px;margin:0 auto;}
+td{text-align:center;}
+
+#respuesta
+{margin:0 auto;
+text-align:center;
+}
+input[type="button"]
+{
+	border:none;
+	border-radius:6px;
+	width:60px;
+	height:26px;
+	background-color:#FFFFFF;
+	color:#666666;
+
+}
